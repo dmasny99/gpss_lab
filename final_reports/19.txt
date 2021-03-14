@@ -1,0 +1,22 @@
+RMULT 524712,3460285,2678388
+
+
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000          11670.842    36        5          0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ ROBOT1              75    0.283      43.961  1        0    0    0     0      0
+ STANOK1             75    0.115      17.898  1        0    0    0     0      0
+ ROBOT2              75    0.283      44.037  1        0    0    0     0      0
+ STANOK2             75    0.058       8.977  1        0    0    0     0      0
+ ROBOT3              75    0.283      43.995  1        0    0    0     0      0
+
+
+QUEUE              MAX CONT. ENTRY ENTRY(0) AVE.CONT. AVE.TIME   AVE.(-0) RETRY
+ ROB1                2    0     75     57     0.040      6.227     25.945   0
+ STAN1               1    0     75     75     0.000      0.000      0.000   0
+ ROB2                1    0     75     62     0.016      2.509     14.474   0
+ STAN2               1    0     75     75     0.000      0.000      0.000   0
+ ROB3                1    0     75     66     0.001      0.208      1.734   0

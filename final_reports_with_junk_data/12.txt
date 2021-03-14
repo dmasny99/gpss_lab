@@ -1,0 +1,77 @@
+
+
+              GPSS World Simulation Report - Untitled Model 1.13.1
+
+
+                   Sunday, March 14, 2021 12:46:38  
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000          10004.583    36        5          0
+
+
+              NAME                       VALUE  
+          ROB1                        10004.000
+          ROB2                        10008.000
+          ROB3                        10012.000
+          ROBOT1                      10005.000
+          ROBOT2                      10009.000
+          ROBOT3                      10013.000
+          STAN1                       10006.000
+          STAN2                       10010.000
+          STANOK1                     10007.000
+          STANOK2                     10011.000
+
+
+ LABEL              LOC  BLOCK TYPE     ENTRY COUNT CURRENT COUNT RETRY
+                    1    GENERATE            75             0       0
+                    2    QUEUE               75             0       0
+                    3    SEIZE               75             0       0
+                    4    DEPART              75             0       0
+                    5    ADVANCE             75             0       0
+                    6    ADVANCE             75             0       0
+                    7    ADVANCE             75             0       0
+                    8    ADVANCE             75             0       0
+                    9    RELEASE             75             0       0
+                   10    QUEUE               75             0       0
+                   11    SEIZE               75             0       0
+                   12    DEPART              75             0       0
+                   13    ADVANCE             75             0       0
+                   14    RELEASE             75             0       0
+                   15    QUEUE               75             0       0
+                   16    SEIZE               75             0       0
+                   17    DEPART              75             0       0
+                   18    ADVANCE             75             0       0
+                   19    ADVANCE             75             0       0
+                   20    ADVANCE             75             0       0
+                   21    ADVANCE             75             0       0
+                   22    RELEASE             75             0       0
+                   23    QUEUE               75             0       0
+                   24    SEIZE               75             0       0
+                   25    DEPART              75             0       0
+                   26    ADVANCE             75             0       0
+                   27    RELEASE             75             0       0
+                   28    QUEUE               75             0       0
+                   29    SEIZE               75             0       0
+                   30    DEPART              75             0       0
+                   31    ADVANCE             75             0       0
+                   32    ADVANCE             75             0       0
+                   33    ADVANCE             75             0       0
+                   34    ADVANCE             75             0       0
+                   35    RELEASE             75             0       0
+                   36    TERMINATE           75             0       0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ ROBOT1              75    0.330      43.955  1        0    0    0     0      0
+ STANOK1             75    0.135      18.010  1        0    0    0     0      0
+ ROBOT2              75    0.330      44.009  1        0    0    0     0      0
+ STANOK2             75    0.066       8.800  1        0    0    0     0      0
+ ROBOT3              75    0.330      43.988  1        0    0    0     0      0
+
+
+QUEUE              MAX CONT. ENTRY ENTRY(0) AVE.CONT. AVE.TIME   AVE.(-0) RETRY
+ ROB1                2    0     75     47     0.102     13.558     36.317   0
+ STAN1               1    0     75     73     0.002      0.294     11.032   0
+ ROB2                2    0     75     56     0.032      4.296     16.959   0
+ STAN2               1    0     75     75     0.000      0.000      0.000   0
+ ROB3                1    0     75     66     0.002      0.272      2.266   0
